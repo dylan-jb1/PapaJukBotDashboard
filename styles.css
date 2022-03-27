@@ -1,0 +1,146 @@
+html {
+    background-color: #222222;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.containersDiv {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    height:100%;
+}
+
+.container {
+    background-color: #111111;
+    padding: 50px;
+    padding-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50px;
+    height:100%;
+}
+
+.chat {
+    min-width:90%;
+    width:500px;
+    height:350px;
+    background-color: #222222;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+
+    font-size: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.messages {
+    overflow-y: scroll;
+}
+
+.noChat {
+    min-width:90%;
+    width:500px;
+    height:350px;
+    background-color: #222222;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+
+    font-size: 12px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text--green {
+    color: green;
+}
+
+.text--yellow {
+    color: yellow;
+}
+
+.text--red {
+    color: red;
+}
+
+.chatMessage {
+    width:100%;
+    height:auto;
+    display:flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.chatUser {
+    width:fit-content;
+    height:fit-content;
+    padding:5px;
+    border-radius: 30px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.chatUser:hover {
+    background-color: #333333;
+    cursor: pointer;
+}
+
+.chatContent {
+    width: 100%;
+    text-align: left;
+    padding:5px;
+}
+
+.chatTimestamp {
+    width:10%;
+    height: fit-content;
+    padding:5px;
+    color:#444444;
+}
+
+.activateMonitorChat {
+    font-weight: bold;
+    background-color: rgb(192, 82, 192);
+    color:#28132b;
+    width: auto;
+    border-color: rgb(204, 129, 198);
+    border-width: 0.5px;
+    border-style: solid;
+    margin: 3px;
+    padding:5px;
+}
+
+.activateMonitorChat:hover {
+    filter:brightness(80%);
+    cursor: pointer;
+}
+
+.enableQueueButton {
+    width:auto;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.enableQueueButton--enabled {
+    background-color: green;
+}
+
+.enableQueueButton--disabled {
+    background-color: red;
+}
