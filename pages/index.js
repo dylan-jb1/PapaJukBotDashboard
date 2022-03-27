@@ -1,5 +1,4 @@
 import React from 'react'
-import MetaTags from 'react-meta-tags';
 
 export default function Home({host}) {
 
@@ -82,10 +81,6 @@ export default function Home({host}) {
 
     return (
         <div className="containersDiv">
-            <MetaTags>
-            <title>Page 1</title>
-                <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-            </MetaTags>
             <div className="container">
                 <h1>Bot Health</h1>
                 <h3>Bot status</h3>
